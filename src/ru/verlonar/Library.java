@@ -8,7 +8,7 @@ public class Library {
     }
 
     public void addBook(Book newBook) {
-        for (int i = 0; i < books.length - 1; i++) {
+        for (int i = 0; i < books.length; i++) {
             if (books[i] == null) {
                 books[i] = newBook;
                 return;
